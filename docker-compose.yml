@@ -1,0 +1,28 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 49302:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: osas
+      MONGO_INITDB_ROOT_PASSWORD: osas2021OSAS2023!
+    volumes: 
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
+  homebox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 15080:15080
+      - 15443:15443
+      - 16080:16080
+      - 16443:16443
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - mongo

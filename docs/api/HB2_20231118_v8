@@ -1,0 +1,3260 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v8.4.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 293.801,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/task/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"homebox\": \"HOMEBOX-220910-000001\",\n\t\"device\": \"631eb49e477289e8dcd0f332\",\n\t\"power\": true,\n\t\"state\": {\"brightness\": 50, \"pulse\": 12}\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "73"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"49-quB7+HSQFfQiG8VvM+2yPXhp+/Y\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 05:13:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 73,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":\"63294bedce4fcbde459a3ccc\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 293.801,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Task"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 781.073,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/project/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Bandar Moonway\",\n\t\"location\": [3.1571157, 101.5692863]\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "73"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"49-h4eNMuKg84JKs6p7drprXTYwCoA\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 02:51:55 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 73,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":\"63292acbaa4d13b5120116dc\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 781.073,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Project"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 10005.888,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/test",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer ozfxTnrYLBJv7pku"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id\": \"karhoong92@gmail.com\",\n\t\"pw\": \"osas2022\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "Error",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 10005.888,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Test"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 462.692,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/project/edit/632d48060b63ce60d33f17c3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Sunway Town\",\n\t\"location\": [3.1571157, 101.5692863]\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 02:52:32 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 462.692,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit Project"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 342.473,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/project/delete/632d48060b63ce60d33f17c3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 02:52:50 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 342.473,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete Project"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 379.758,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/project/get/631b6b3e39e1c42f4070a861",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "283"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"11b-5p66Hnzp1A/Qyx7wmTQV6WwfXIQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 02:53:44 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 283,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"_id\":\"631b6b3e39e1c42f4070a861\",\"name\":\"Emporis SOHO\",\"location\":[3.1571157,101.5692863],\"create_time\":1662741310553,\"creator\":\"631b57c37435ab7736525a48\",\"updater\":\"631b57c37435ab7736525a48\",\"update_time\":1662787074992,\"homeboxes\":[]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 379.758,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get Project"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 86.03099999999999,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/project/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"limit\": 10,\n\t\"page\": 0,\n\t\"include_bin\": true\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1055"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"41f-sKTi4ah4lLSF2E3kfqmmc9ZJWwo\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 11 Nov 2022 12:03:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1055,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"631b6b3e39e1c42f4070a861\",\"name\":\"Emporis SOHO\",\"location\":[3.1571157,101.5692863],\"create_time\":1662741310553,\"creator\":\"631b57c37435ab7736525a48\",\"updater\":\"631b57c37435ab7736525a48\",\"update_time\":1662787074992},{\"_id\":\"631b6d11f82505ef1359d95b\",\"name\":\"Hallaway\",\"location\":[3.1571157,101.5692863],\"create_time\":1662741777153,\"creator\":\"631b57c37435ab7736525a48\"},{\"_id\":\"63292acbaa4d13b5120116dc\",\"name\":\"Sunway Town\",\"location\":[3.1571157,101.5692863],\"create_time\":1663642315767,\"creator\":\"631b57c37435ab7736525a48\",\"update_time\":1663642352760,\"updater\":\"631b57c37435ab7736525a48\",\"delete_time\":1663642370457,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632953f8ce4fcbde459a3cd4\",\"name\":\"Taman Malam Masih Mudah\",\"location\":[3.1571157,101.5692863],\"create_time\":1663652856074,\"creator\":\"63294fe3ce4fcbde459a3cd0\"},{\"_id\":\"632d48060b63ce60d33f17c3\",\"name\":\"Hallaway Demo unit\",\"location\":[3.1571157,101.5692863],\"create_time\":1663911942683,\"creator\":\"632d46190b63ce60d33f17c0\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 86.03099999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List Project"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 2059.058,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/sign-up",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id\": \"weinick@the-oaks.my\",\n\t\"pw\": \"osas2022\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 04:01:40 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2059.058,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sign Up"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 1976.446,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/sign-in",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id\": \"weinick@the-oaks.my\",\n\t\"pw\": \"osas2022\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "41185"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"a0e1-RXZZ1lSUpT9peSP24oq+wuvuGBw\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 17 Nov 2022 08:25:15 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 41185,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"session_id\":\"63293b24d3d441005474d345\",\"session_token\":\"alwAUcIOYf153QWH\",\"name\":\"Chan Wei Nick\",\"phone\":\"0101010101\",\"profile_picture\":\"data:image/webp;base64,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\",\"email\":\"weinick@the-oaks.my\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 1976.446,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sign In"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 344.93,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/get-profile",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "154"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"9a-y3w1WAyI3CvJTGyior93QeVjUxQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 22 Sep 2022 10:42:05 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 154,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"_id\":\"6323f9b96111958abdb1f0c7\",\"id\":\"karhoong@the-oaks.my\",\"name\":\"Chan Kar Hoong\",\"phone\":\"0106661465\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 344.93,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get Profile"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 414.149,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/edit",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Chan Kar Hoong\",\n\t\"phone\": \"0106661465\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "114"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"72-AK75LOtyMkEfeeh7MjVZQA2sr0Y\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 17 Sep 2022 07:10:45 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 114,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"name\":\"Chan Kar Hoong\",\"phone\":\"0106661465\",\"profile_picture\":\"\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 414.149,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit User"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 396.258,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/get-common-info",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "20330"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"4f6a-2UYRg2Q6SUX9IEOtjKMu09zRFd0\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 19 Sep 2022 15:47:31 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 20330,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"rooms\":[{\"_id\":\"6327218ea0424f583e609c07\",\"tag\":\"living-room-a\",\"name\":\"Living Room\",\"priority\":100,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M5.7 10.05C5.7 8.925 6.09375 7.96875 6.88125 7.18125C7.66875 6.39375 8.625 6 9.75 6H26.25C27.375 6 28.3313 6.39375 29.1188 7.18125C29.9062 7.96875 30.3 8.925 30.3 10.05V13.1625C31.5 13.0375 32.5 13.3 33.3 13.95C34.1 14.6 34.5 15.5375 34.5 16.7625V25.95C34.5 27.075 34.1063 28.0312 33.3187 28.8187C32.5312 29.6062 31.575 30 30.45 30H5.55C4.425 30 3.46875 29.6062 2.68125 28.8187C1.89375 28.0312 1.5 27.075 1.5 25.95V16.7625C1.5 15.5375 1.90625 14.6 2.71875 13.95C3.53125 13.3 4.525 13.0375 5.7 13.1625V10.05ZM7.95 10.05V14.25C8.3 14.6 8.575 14.9438 8.775 15.2812C8.975 15.6187 9.075 16.1125 9.075 16.7625V21.4125H26.925V16.7625C26.925 16.1125 27.025 15.6187 27.225 15.2812C27.425 14.9438 27.7 14.6 28.05 14.25V10.05C28.05 9.525 27.8812 9.09375 27.5437 8.75625C27.2062 8.41875 26.775 8.25 26.25 8.25H9.75C9.225 8.25 8.79375 8.41875 8.45625 8.75625C8.11875 9.09375 7.95 9.525 7.95 10.05ZM29.175 23.6625H6.825V16.7625C6.825 16.5125 6.79375 16.2938 6.73125 16.1063C6.66875 15.9188 6.56875 15.7563 6.43125 15.6188C6.29375 15.4813 6.13125 15.3812 5.94375 15.3187C5.75625 15.2562 5.5375 15.225 5.2875 15.225C4.7875 15.225 4.40625 15.3563 4.14375 15.6188C3.88125 15.8813 3.75 16.2625 3.75 16.7625V25.95C3.75 26.475 3.91875 26.9062 4.25625 27.2438C4.59375 27.5813 5.025 27.75 5.55 27.75H30.45C30.975 27.75 31.4062 27.5813 31.7438 27.2438C32.0813 26.9062 32.25 26.475 32.25 25.95V16.7625C32.25 16.2625 32.1187 15.8813 31.8562 15.6188C31.5937 15.3563 31.2125 15.225 30.7125 15.225C30.4625 15.225 30.2438 15.2562 30.0563 15.3187C29.8688 15.3812 29.7125 15.4813 29.5875 15.6188C29.4625 15.7563 29.3625 15.9188 29.2875 16.1063C29.2125 16.2938 29.175 16.5125 29.175 16.7625V23.6625Z\\\" fill=\\\"white\\\"/></svg>\",\"update_time\":1663509824668,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632725be8d3bd4185d9284ff\",\"tag\":\"master-bedroom-a\",\"name\":\"Master Bedroom\",\"priority\":95,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M4.125 28.5C3.8 28.5 3.53125 28.3938 3.31875 28.1813C3.10625 27.9688 3 27.7 3 27.375V18.9375C3 18.3125 3.125 17.725 3.375 17.175C3.625 16.625 4 16.175 4.5 15.825V11.475C4.5 10.35 4.88125 9.40625 5.64375 8.64375C6.40625 7.88125 7.35 7.5 8.475 7.5H15.225C15.775 7.5 16.2875 7.625 16.7625 7.875C17.2375 8.125 17.65 8.4625 18 8.8875C18.35 8.4625 18.7563 8.125 19.2188 7.875C19.6812 7.625 20.1875 7.5 20.7375 7.5H27.4875C28.6125 7.5 29.5625 7.88125 30.3375 8.64375C31.1125 9.40625 31.5 10.35 31.5 11.475V15.825C32 16.175 32.375 16.625 32.625 17.175C32.875 17.725 33 18.3125 33 18.9375V27.375C33 27.7 32.8938 27.9688 32.6813 28.1813C32.4688 28.3938 32.2 28.5 31.875 28.5C31.55 28.5 31.2812 28.3938 31.0687 28.1813C30.8562 27.9688 30.75 27.7 30.75 27.375V25.5H5.25V27.375C5.25 27.7 5.14375 27.9688 4.93125 28.1813C4.71875 28.3938 4.45 28.5 4.125 28.5ZM19.125 15.1875H29.25V11.475C29.25 10.975 29.0813 10.5625 28.7438 10.2375C28.4062 9.9125 27.9875 9.75 27.4875 9.75H20.625C20.2 9.75 19.8438 9.925 19.5563 10.275C19.2688 10.625 19.125 11.025 19.125 11.475V15.1875ZM6.75 15.1875H16.875V11.475C16.875 11.025 16.7312 10.625 16.4437 10.275C16.1562 9.925 15.8 9.75 15.375 9.75H8.475C8 9.75 7.59375 9.91875 7.25625 10.2563C6.91875 10.5938 6.75 11 6.75 11.475V15.1875ZM5.25 23.25H30.75V18.9375C30.75 18.5125 30.6062 18.1563 30.3187 17.8688C30.0312 17.5813 29.675 17.4375 29.25 17.4375H6.75C6.325 17.4375 5.96875 17.5813 5.68125 17.8688C5.39375 18.1563 5.25 18.5125 5.25 18.9375V23.25ZM30.75 23.25H5.25H30.75Z\\\" fill=\\\"#464646\\\"/></svg>\"},{\"_id\":\"63286816ab1bb1dfd9ebfcf4\",\"tag\":\"bedroom-a\",\"name\":\"Bedroom\",\"priority\":90,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M6 25.5V17.475C6 16.825 6.2125 16.275 6.6375 15.825C7.0625 15.375 7.6 15.15 8.25 15.15H9.225V9.75C9.225 9.125 9.44375 8.59375 9.88125 8.15625C10.3187 7.71875 10.85 7.5 11.475 7.5H24.4875C25.1125 7.5 25.6438 7.71875 26.0813 8.15625C26.5188 8.59375 26.7375 9.125 26.7375 9.75V15.15H27.75C28.375 15.15 28.9062 15.3688 29.3438 15.8063C29.7812 16.2438 30 16.775 30 17.4V25.5H28.275L27.7125 27.7875C27.6625 27.9875 27.575 28.1562 27.45 28.2937C27.325 28.4312 27.1625 28.5 26.9625 28.5C26.7625 28.5 26.6 28.425 26.475 28.275C26.35 28.125 26.2625 27.95 26.2125 27.75L25.65 25.5H10.3875L9.7875 27.7875C9.7375 27.9875 9.65 28.1562 9.525 28.2937C9.4 28.4312 9.2375 28.5 9.0375 28.5C8.8375 28.5 8.675 28.425 8.55 28.275C8.425 28.125 8.3375 27.95 8.2875 27.75L7.725 25.5H6ZM19.125 15.15H24.4875V9.75H19.125V15.15ZM11.475 15.15H16.875V9.75H11.475V15.15ZM8.25 23.25H27.75V17.4H8.25V23.25ZM27.75 23.25H8.25H27.75Z\\\" fill=\\\"#464646\\\"/></svg>\"},{\"_id\":\"63286835ab1bb1dfd9ebfcf5\",\"tag\":\"bathroom-a\",\"name\":\"Bathroom\",\"priority\":80,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M11.175 26.1375C10.875 26.1375 10.6125 26.025 10.3875 25.8C10.1625 25.575 10.05 25.3125 10.05 25.0125C10.05 24.7125 10.1625 24.45 10.3875 24.225C10.6125 24 10.875 23.8875 11.175 23.8875C11.475 23.8875 11.7375 24 11.9625 24.225C12.1875 24.45 12.3 24.7125 12.3 25.0125C12.3 25.3125 12.1875 25.575 11.9625 25.8C11.7375 26.025 11.475 26.1375 11.175 26.1375ZM18 26.1375C17.7 26.1375 17.4375 26.025 17.2125 25.8C16.9875 25.575 16.875 25.3125 16.875 25.0125C16.875 24.7125 16.9875 24.45 17.2125 24.225C17.4375 24 17.7 23.8875 18 23.8875C18.3 23.8875 18.5625 24 18.7875 24.225C19.0125 24.45 19.125 24.7125 19.125 25.0125C19.125 25.3125 19.0125 25.575 18.7875 25.8C18.5625 26.025 18.3 26.1375 18 26.1375ZM24.825 26.1375C24.525 26.1375 24.2625 26.025 24.0375 25.8C23.8125 25.575 23.7 25.3125 23.7 25.0125C23.7 24.7125 23.8125 24.45 24.0375 24.225C24.2625 24 24.525 23.8875 24.825 23.8875C25.125 23.8875 25.3875 24 25.6125 24.225C25.8375 24.45 25.95 24.7125 25.95 25.0125C25.95 25.3125 25.8375 25.575 25.6125 25.8C25.3875 26.025 25.125 26.1375 24.825 26.1375ZM8.625 20.5125C8.3 20.5125 8.03125 20.4062 7.81875 20.1937C7.60625 19.9812 7.5 19.7125 7.5 19.3875V18.2625C7.5 15.5875 8.40625 13.25 10.2188 11.25C12.0312 9.25 14.25 8.1125 16.875 7.8375V5.625C16.875 5.3 16.9812 5.03125 17.1937 4.81875C17.4062 4.60625 17.675 4.5 18 4.5C18.325 4.5 18.5938 4.60625 18.8063 4.81875C19.0188 5.03125 19.125 5.3 19.125 5.625V7.8375C21.75 8.1125 23.9688 9.25 25.7812 11.25C27.5938 13.25 28.5 15.5875 28.5 18.2625V19.3875C28.5 19.7125 28.3938 19.9812 28.1813 20.1937C27.9688 20.4062 27.7 20.5125 27.375 20.5125H8.625ZM9.75 18.2625H26.25C26.25 15.9875 25.4438 14.0438 23.8312 12.4313C22.2188 10.8188 20.275 10.0125 18 10.0125C15.725 10.0125 13.7813 10.8188 12.1688 12.4313C10.5563 14.0438 9.75 15.9875 9.75 18.2625ZM11.175 31.5C10.875 31.5 10.6125 31.3875 10.3875 31.1625C10.1625 30.9375 10.05 30.675 10.05 30.375C10.05 30.075 10.1625 29.8125 10.3875 29.5875C10.6125 29.3625 10.875 29.25 11.175 29.25C11.475 29.25 11.7375 29.3625 11.9625 29.5875C12.1875 29.8125 12.3 30.075 12.3 30.375C12.3 30.675 12.1875 30.9375 11.9625 31.1625C11.7375 31.3875 11.475 31.5 11.175 31.5ZM18 31.5C17.7 31.5 17.4375 31.3875 17.2125 31.1625C16.9875 30.9375 16.875 30.675 16.875 30.375C16.875 30.075 16.9875 29.8125 17.2125 29.5875C17.4375 29.3625 17.7 29.25 18 29.25C18.3 29.25 18.5625 29.3625 18.7875 29.5875C19.0125 29.8125 19.125 30.075 19.125 30.375C19.125 30.675 19.0125 30.9375 18.7875 31.1625C18.5625 31.3875 18.3 31.5 18 31.5ZM24.825 31.5C24.525 31.5 24.2625 31.3875 24.0375 31.1625C23.8125 30.9375 23.7 30.675 23.7 30.375C23.7 30.075 23.8125 29.8125 24.0375 29.5875C24.2625 29.3625 24.525 29.25 24.825 29.25C25.125 29.25 25.3875 29.3625 25.6125 29.5875C25.8375 29.8125 25.95 30.075 25.95 30.375C25.95 30.675 25.8375 30.9375 25.6125 31.1625C25.3875 31.3875 25.125 31.5 24.825 31.5Z\\\" fill=\\\"#464646\\\"/></svg>\",\"update_time\":1663592611521,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"6328685cab1bb1dfd9ebfcf6\",\"tag\":\"kitchen-a\",\"name\":\"Kitchen\",\"priority\":70,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M7.125 30C6.8 30 6.53125 29.8938 6.31875 29.6813C6.10625 29.4688 6 29.2 6 28.875V16.875H4.125C3.8 16.875 3.53125 16.7688 3.31875 16.5563C3.10625 16.3438 3 16.075 3 15.75C3 15.425 3.10625 15.1562 3.31875 14.9437C3.53125 14.7312 3.8 14.625 4.125 14.625H8.8125C8.0875 14.625 7.46875 14.3688 6.95625 13.8563C6.44375 13.3438 6.1875 12.725 6.1875 12V7.125C6.1875 6.8 6.29375 6.53125 6.50625 6.31875C6.71875 6.10625 6.9875 6 7.3125 6H13.6875C14.0125 6 14.2813 6.10625 14.4938 6.31875C14.7063 6.53125 14.8125 6.8 14.8125 7.125V12C14.8125 12.725 14.5563 13.3438 14.0438 13.8563C13.5312 14.3688 12.9125 14.625 12.1875 14.625H24.375V10.125C24.375 9.6 24.1938 9.15625 23.8312 8.79375C23.4688 8.43125 23.025 8.25 22.5 8.25C22.15 8.25 21.8438 8.3125 21.5812 8.4375C21.3188 8.5625 21.1125 8.7625 20.9625 9.0375C20.8125 9.2875 20.6375 9.46875 20.4375 9.58125C20.2375 9.69375 20.025 9.75 19.8 9.75C19.35 9.75 19.0312 9.5625 18.8438 9.1875C18.6562 8.8125 18.7 8.4125 18.975 7.9875C19.35 7.3625 19.8375 6.875 20.4375 6.525C21.0375 6.175 21.725 6 22.5 6C23.65 6 24.625 6.4 25.425 7.2C26.225 8 26.625 8.975 26.625 10.125V14.625H31.875C32.2 14.625 32.4688 14.7312 32.6813 14.9437C32.8938 15.1562 33 15.425 33 15.75C33 16.075 32.8938 16.3438 32.6813 16.5563C32.4688 16.7688 32.2 16.875 31.875 16.875H30V28.875C30 29.2 29.8938 29.4688 29.6813 29.6813C29.4688 29.8938 29.2 30 28.875 30H7.125ZM8.4375 12.375H12.5625V8.25H8.4375V12.375ZM8.25 27.75H16.875V16.875H8.25V27.75ZM19.125 27.75H27.75V16.875H19.125V27.75ZM8.4375 12.375H12.5625H8.4375Z\\\" fill=\\\"#464646\\\"/></svg>\"}],\"device-types\":[{\"_id\":\"6328891c591cf3c59f22a73f\",\"tag\":\"light\",\"name\":\"Light\",\"priority\":100,\"image\":\"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M9 16.4999C8.575 16.4999 8.21562 16.353 7.92188 16.0593C7.62813 15.7655 7.48125 15.4062 7.48125 14.9812H10.5187C10.5187 15.4062 10.3719 15.7655 10.0781 16.0593C9.78438 16.353 9.425 16.4999 9 16.4999ZM6.525 13.8187C6.3625 13.8187 6.22813 13.7655 6.12188 13.6593C6.01563 13.553 5.9625 13.4187 5.9625 13.2562C5.9625 13.0937 6.01563 12.9593 6.12188 12.853C6.22813 12.7468 6.3625 12.6937 6.525 12.6937H11.475C11.6375 12.6937 11.7719 12.7468 11.8781 12.853C11.9844 12.9593 12.0375 13.0937 12.0375 13.2562C12.0375 13.4187 11.9844 13.553 11.8781 13.6593C11.7719 13.7655 11.6375 13.8187 11.475 13.8187H6.525ZM6.05625 11.5499C5.23125 11.0124 4.57812 10.3405 4.09688 9.53428C3.61563 8.72803 3.375 7.81865 3.375 6.80615C3.375 5.28115 3.93125 3.9624 5.04375 2.8499C6.15625 1.7374 7.475 1.18115 9 1.18115C10.525 1.18115 11.8438 1.7374 12.9562 2.8499C14.0687 3.9624 14.625 5.28115 14.625 6.80615C14.625 7.81865 14.3875 8.72803 13.9125 9.53428C13.4375 10.3405 12.7812 11.0124 11.9438 11.5499H6.05625ZM6.46875 10.4249H11.55C12.15 10.0249 12.625 9.50615 12.975 8.86865C13.325 8.23115 13.5 7.54365 13.5 6.80615C13.5 5.56865 13.0594 4.50928 12.1781 3.62803C11.2969 2.74678 10.2375 2.30615 9 2.30615C7.7625 2.30615 6.70312 2.74678 5.82187 3.62803C4.94062 4.50928 4.5 5.56865 4.5 6.80615C4.5 7.54365 4.675 8.23115 5.025 8.86865C5.375 9.50615 5.85625 10.0249 6.46875 10.4249Z\\\" fill=\\\"white\\\"/></svg>\"},{\"_id\":\"63288a31591cf3c59f22a740\",\"tag\":\"fan\",\"name\":\"Fan\",\"priority\":85,\"image\":\"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M7.9502 16.6124C7.2752 16.6124 6.7627 16.4124 6.4127 16.0124C6.0627 15.6124 5.8877 15.1499 5.8877 14.6249C5.8877 14.2874 5.9627 13.953 6.1127 13.6218C6.2627 13.2905 6.5002 13.0187 6.8252 12.8062C7.0627 12.6562 7.26582 12.4499 7.43457 12.1874C7.60332 11.9249 7.73769 11.5499 7.8377 11.0624C7.85019 11.0749 7.8627 11.0843 7.8752 11.0905L7.89394 11.0999L5.7752 11.8499C5.5502 11.9249 5.33457 11.9874 5.12832 12.0374C4.92207 12.0874 4.7127 12.1124 4.5002 12.1124C3.6752 12.1124 2.9502 11.7593 2.3252 11.053C1.7002 10.3468 1.3877 9.3124 1.3877 7.9499C1.3877 7.2749 1.5877 6.75928 1.9877 6.40303C2.3877 6.04678 2.84395 5.86865 3.35645 5.86865C3.70645 5.86865 4.04707 5.94365 4.37832 6.09365C4.70957 6.24365 4.98145 6.48115 5.19395 6.80615C5.34395 7.05615 5.5627 7.2749 5.8502 7.4624C6.1377 7.6499 6.5002 7.76865 6.9377 7.81865C6.9377 7.84365 6.93457 7.85615 6.92832 7.85615C6.92207 7.85615 6.9127 7.8624 6.9002 7.8749L6.1502 5.7749C6.0752 5.5624 6.0127 5.35303 5.9627 5.14678C5.9127 4.94053 5.8877 4.7374 5.8877 4.5374C5.8877 3.6874 6.24082 2.94678 6.94707 2.31553C7.65332 1.68428 8.68769 1.36865 10.0502 1.36865C10.7127 1.36865 11.2221 1.57178 11.5783 1.97803C11.9346 2.38428 12.1189 2.84365 12.1314 3.35615C12.1314 3.69365 12.0533 4.03115 11.8971 4.36865C11.7408 4.70615 11.5064 4.9749 11.1939 5.1749C10.8814 5.3749 10.6439 5.63428 10.4814 5.95303C10.3189 6.27178 10.2252 6.5999 10.2002 6.9374C10.1752 6.9499 10.1596 6.9499 10.1533 6.9374C10.1471 6.9249 10.1377 6.91865 10.1252 6.91865L12.2252 6.13115C12.4377 6.05615 12.6471 5.99365 12.8533 5.94365C13.0596 5.89365 13.2689 5.86865 13.4814 5.86865C14.5439 5.86865 15.3346 6.2999 15.8533 7.1624C16.3721 8.0249 16.6314 8.9874 16.6314 10.0499C16.6314 10.7374 16.4189 11.253 15.9939 11.5968C15.5689 11.9405 15.0939 12.1124 14.5689 12.1124C14.2314 12.1124 13.9064 12.0374 13.5939 11.8874C13.2814 11.7374 13.0252 11.4999 12.8252 11.1749C12.6627 10.9374 12.4502 10.7312 12.1877 10.5562C11.9252 10.3812 11.5564 10.2437 11.0814 10.1437H11.0721C11.0783 10.1437 11.0814 10.1374 11.0814 10.1249L11.8502 12.2249C11.9252 12.4249 11.9908 12.6187 12.0471 12.8062C12.1033 12.9937 12.1314 13.1937 12.1314 13.4062C12.1314 14.2437 11.7783 14.9874 11.0721 15.6374C10.3658 16.2874 9.3252 16.6124 7.9502 16.6124ZM9.0002 9.99365C9.2752 9.99365 9.5127 9.89678 9.7127 9.70303C9.91269 9.50928 10.0127 9.2749 10.0127 8.9999C10.0127 8.7249 9.91269 8.4874 9.7127 8.2874C9.5127 8.0874 9.2752 7.9874 9.0002 7.9874C8.72519 7.9874 8.49082 8.0874 8.29707 8.2874C8.10332 8.4874 8.00644 8.7249 8.00644 8.9999C8.00644 9.2749 8.10332 9.50928 8.29707 9.70303C8.49082 9.89678 8.72519 9.99365 9.0002 9.99365ZM7.98769 6.88115C8.12519 6.81865 8.26269 6.76865 8.4002 6.73115C8.53769 6.69365 8.68144 6.6624 8.83144 6.6374C8.94394 6.0874 9.13457 5.58428 9.40332 5.12803C9.67207 4.67178 10.0189 4.30615 10.4439 4.03115C10.5439 3.96865 10.6221 3.88115 10.6783 3.76865C10.7346 3.65615 10.7627 3.5249 10.7627 3.3749C10.7627 3.2124 10.7064 3.06553 10.5939 2.93428C10.4814 2.80303 10.3002 2.7374 10.0502 2.7374C9.53769 2.7374 8.94707 2.8624 8.27832 3.1124C7.60957 3.3624 7.26895 3.83115 7.25645 4.51865C7.25645 4.64365 7.26895 4.76865 7.29395 4.89365C7.31895 5.01865 7.3502 5.1249 7.3877 5.2124L7.98769 6.88115ZM4.5002 10.7437C4.6377 10.7437 4.8752 10.6999 5.2127 10.6124L6.88145 10.0124C6.80645 9.8624 6.74707 9.71553 6.70332 9.57178C6.65957 9.42803 6.64395 9.29365 6.65645 9.16865C6.09395 9.05615 5.58457 8.86553 5.12832 8.59678C4.67207 8.32803 4.3127 7.98115 4.0502 7.55615C3.9752 7.45615 3.8752 7.37803 3.7502 7.32178C3.6252 7.26553 3.50645 7.2374 3.39395 7.2374C3.19395 7.2374 3.0377 7.29365 2.9252 7.40615C2.8127 7.51865 2.75645 7.6999 2.75645 7.9499C2.75645 8.6874 2.90332 9.3374 3.19707 9.8999C3.49082 10.4624 3.9252 10.7437 4.5002 10.7437ZM7.9502 15.2437C8.6377 15.2437 9.27207 15.103 9.85332 14.8218C10.4346 14.5405 10.7377 14.0937 10.7627 13.4812C10.7627 13.3562 10.7471 13.2405 10.7158 13.1343C10.6846 13.028 10.6502 12.9124 10.6127 12.7874L10.0127 11.1187C9.8752 11.1812 9.73769 11.2343 9.60019 11.278C9.4627 11.3218 9.32519 11.3437 9.1877 11.3437C9.0627 11.9062 8.86582 12.4155 8.59707 12.8718C8.32832 13.328 7.9877 13.6874 7.5752 13.9499C7.4752 14.0124 7.39707 14.1124 7.34082 14.2499C7.28457 14.3874 7.25645 14.5124 7.25645 14.6249C7.25645 14.7999 7.31582 14.9468 7.43457 15.0655C7.55332 15.1843 7.7252 15.2437 7.9502 15.2437ZM14.5689 10.7437C14.7564 10.7437 14.9189 10.6968 15.0564 10.603C15.1939 10.5093 15.2627 10.3249 15.2627 10.0499C15.2627 9.5249 15.1377 8.93428 14.8877 8.27803C14.6377 7.62178 14.1627 7.2749 13.4627 7.2374C13.3252 7.2374 13.2002 7.2499 13.0877 7.2749C12.9752 7.2999 12.8814 7.33115 12.8064 7.36865L11.1189 7.9874C11.1689 8.0624 11.2221 8.19053 11.2783 8.37178C11.3346 8.55303 11.3627 8.6999 11.3627 8.8124C11.9127 8.9374 12.4158 9.13428 12.8721 9.40303C13.3283 9.67178 13.6939 10.0124 13.9689 10.4249C14.0314 10.5249 14.1189 10.603 14.2314 10.6593C14.3439 10.7155 14.4564 10.7437 14.5689 10.7437Z\\\" fill=\\\"#464646\\\"/></svg>\",\"update_time\":1663601411216,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"63288bb9591cf3c59f22a741\",\"tag\":\"door\",\"name\":\"Door\",\"priority\":70,\"image\":\"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M8.2502 9.6749C8.45019 9.6749 8.61582 9.60928 8.74707 9.47803C8.87832 9.34678 8.94395 9.1874 8.94395 8.9999C8.94395 8.7999 8.87832 8.63428 8.74707 8.50303C8.61582 8.37178 8.45019 8.30615 8.2502 8.30615C8.0627 8.30615 7.90332 8.37178 7.77207 8.50303C7.64082 8.63428 7.5752 8.7999 7.5752 8.9999C7.5752 9.1874 7.64082 9.34678 7.77207 9.47803C7.90332 9.60928 8.0627 9.6749 8.2502 9.6749ZM5.00645 15.8624V14.4937L10.1439 13.5937V5.1749C10.1439 4.9624 10.0877 4.78115 9.9752 4.63115C9.8627 4.48115 9.7127 4.39365 9.5252 4.36865L5.00645 3.65615V2.30615L9.8252 3.1499C10.3127 3.2249 10.7158 3.45615 11.0346 3.84365C11.3533 4.23115 11.5127 4.66865 11.5127 5.15615V13.5749C11.5127 13.8999 11.4033 14.1968 11.1846 14.4655C10.9658 14.7343 10.6939 14.8874 10.3689 14.9249L5.00645 15.8624ZM5.00645 14.4937H13.0127V3.6749L5.00645 3.65615V14.4937ZM2.8127 15.8624C2.6252 15.8624 2.46582 15.7968 2.33457 15.6655C2.20332 15.5343 2.1377 15.3749 2.1377 15.1874C2.1377 14.9999 2.20332 14.8374 2.33457 14.6999C2.46582 14.5624 2.6252 14.4937 2.8127 14.4937H3.6377V3.6749C3.6377 3.2999 3.77207 2.97803 4.04082 2.70928C4.30957 2.44053 4.63145 2.30615 5.00645 2.30615H13.0127C13.3877 2.30615 13.7096 2.44053 13.9783 2.70928C14.2471 2.97803 14.3814 3.2999 14.3814 3.6749V14.4937H15.1877C15.3752 14.4937 15.5377 14.5624 15.6752 14.6999C15.8127 14.8374 15.8814 14.9999 15.8814 15.1874C15.8814 15.3749 15.8127 15.5343 15.6752 15.6655C15.5377 15.7968 15.3752 15.8624 15.1877 15.8624H2.8127Z\\\" fill=\\\"#464646\\\"/></svg>\"},{\"_id\":\"63288bfe591cf3c59f22a742\",\"tag\":\"laundry\",\"name\":\"Laundry\",\"priority\":50,\"image\":\"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M4.125 16.5C3.825 16.5 3.5625 16.3875 3.3375 16.1625C3.1125 15.9375 3 15.675 3 15.375V2.625C3 2.325 3.1125 2.0625 3.3375 1.8375C3.5625 1.6125 3.825 1.5 4.125 1.5H13.875C14.175 1.5 14.4375 1.6125 14.6625 1.8375C14.8875 2.0625 15 2.325 15 2.625V15.375C15 15.675 14.8875 15.9375 14.6625 16.1625C14.4375 16.3875 14.175 16.5 13.875 16.5H4.125ZM4.125 15.375H13.875V2.625H4.125V15.375ZM9 14.2687C10.0125 14.2687 10.8719 13.9156 11.5781 13.2094C12.2844 12.5031 12.6375 11.6438 12.6375 10.6313C12.6375 9.61875 12.2844 8.75938 11.5781 8.05313C10.8719 7.34688 10.0125 6.99375 9 6.99375C7.9875 6.99375 7.12813 7.34688 6.42188 8.05313C5.71563 8.75938 5.3625 9.61875 5.3625 10.6313C5.3625 11.6438 5.71563 12.5031 6.42188 13.2094C7.12813 13.9156 7.9875 14.2688 9 14.2687ZM9 12.6937C8.7125 12.6937 8.43437 12.6406 8.16562 12.5344C7.89687 12.4281 7.6625 12.2812 7.4625 12.0938L10.4438 9.1125C10.6562 9.2875 10.8125 9.50625 10.9125 9.76875C11.0125 10.0312 11.0625 10.3188 11.0625 10.6313C11.0625 11.2312 10.8688 11.725 10.4813 12.1125C10.0938 12.5 9.6 12.6937 9 12.6937ZM5.7 4.725C5.85 4.725 5.98125 4.66875 6.09375 4.55625C6.20625 4.44375 6.2625 4.3125 6.2625 4.1625C6.2625 4.0125 6.20625 3.88125 6.09375 3.76875C5.98125 3.65625 5.85 3.6 5.7 3.6C5.55 3.6 5.41875 3.65625 5.30625 3.76875C5.19375 3.88125 5.1375 4.0125 5.1375 4.1625C5.1375 4.3125 5.19375 4.44375 5.30625 4.55625C5.41875 4.66875 5.55 4.725 5.7 4.725ZM8.2125 4.725C8.3625 4.725 8.49375 4.66875 8.60625 4.55625C8.71875 4.44375 8.775 4.3125 8.775 4.1625C8.775 4.0125 8.71875 3.88125 8.60625 3.76875C8.49375 3.65625 8.3625 3.6 8.2125 3.6C8.0625 3.6 7.93125 3.65625 7.81875 3.76875C7.70625 3.88125 7.65 4.0125 7.65 4.1625C7.65 4.3125 7.70625 4.44375 7.81875 4.55625C7.93125 4.66875 8.0625 4.725 8.2125 4.725ZM4.125 15.375V2.625V15.375Z\\\" fill=\\\"#464646\\\"/></svg>\"}]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 396.258,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get Common Info"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 293.71999999999997,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/check-session",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 03:15:21 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 293.71999999999997,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Check Session"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 72.06700000000001,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/sign-up",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer ozfxTnrYLBJv7pku"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id\": \"weinick@the-oaks.my\",\n\t\"pw\": \"osas2023\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Mon, 03 Jul 2023 09:21:56 GMT"
+						},
+						{
+							"name": "Server",
+							"value": "Apache/2.4.52 (Ubuntu)"
+						},
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 72.06700000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sign Up"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 105.938,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/sign-in",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer ozfxTnrYLBJv7pku"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id\": \"weinick@the-oaks.my\",\n\t\"pw\": \"osas2022\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Mon, 03 Jul 2023 09:21:39 GMT"
+						},
+						{
+							"name": "Server",
+							"value": "Apache/2.4.52 (Ubuntu)"
+						},
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "54"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"36-j8SCfUggJj5n41o3wojo/J7iAIs\""
+						}
+					],
+					"content": {
+						"size": 54,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":-3002,\"status_message\":\"INVALID CREDENTIAL\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 105.938,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sign In"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 257.62600000000003,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/check-session",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Admin-ID",
+							"value": "631b57c37435ab7736525a48"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 10 Sep 2022 05:17:51 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 257.62600000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Check Session"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 548.804,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"project\": \"632d48060b63ce60d33f17c3\",\n\t\"id\": \"HOMEBOX-220912-000003\",\n\t\"name\": \"F-07-03\",\n\t\"token\": \"U7sBddgwCk9FEIqn\",\n\t\"model_name\": \"HomeBox V2\",\n\t\"serial_number\": \"hZJSc9tff3rcTXDr\",\n\t\"manufacture_time\": 1662888600000\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "70"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"46-ygVILJMYXZgVM54kNi6GjdgeVd4\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 12 Sep 2022 04:23:21 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 70,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":\"HOMEBOX-220912-000003\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 548.804,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 197.544,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/room/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Kitchen\",\n\t\"priority\": 70,\n\t\"tag\": \"kitchen-a\",\n\t\"image\": \"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M7.125 30C6.8 30 6.53125 29.8938 6.31875 29.6813C6.10625 29.4688 6 29.2 6 28.875V16.875H4.125C3.8 16.875 3.53125 16.7688 3.31875 16.5563C3.10625 16.3438 3 16.075 3 15.75C3 15.425 3.10625 15.1562 3.31875 14.9437C3.53125 14.7312 3.8 14.625 4.125 14.625H8.8125C8.0875 14.625 7.46875 14.3688 6.95625 13.8563C6.44375 13.3438 6.1875 12.725 6.1875 12V7.125C6.1875 6.8 6.29375 6.53125 6.50625 6.31875C6.71875 6.10625 6.9875 6 7.3125 6H13.6875C14.0125 6 14.2813 6.10625 14.4938 6.31875C14.7063 6.53125 14.8125 6.8 14.8125 7.125V12C14.8125 12.725 14.5563 13.3438 14.0438 13.8563C13.5312 14.3688 12.9125 14.625 12.1875 14.625H24.375V10.125C24.375 9.6 24.1938 9.15625 23.8312 8.79375C23.4688 8.43125 23.025 8.25 22.5 8.25C22.15 8.25 21.8438 8.3125 21.5812 8.4375C21.3188 8.5625 21.1125 8.7625 20.9625 9.0375C20.8125 9.2875 20.6375 9.46875 20.4375 9.58125C20.2375 9.69375 20.025 9.75 19.8 9.75C19.35 9.75 19.0312 9.5625 18.8438 9.1875C18.6562 8.8125 18.7 8.4125 18.975 7.9875C19.35 7.3625 19.8375 6.875 20.4375 6.525C21.0375 6.175 21.725 6 22.5 6C23.65 6 24.625 6.4 25.425 7.2C26.225 8 26.625 8.975 26.625 10.125V14.625H31.875C32.2 14.625 32.4688 14.7312 32.6813 14.9437C32.8938 15.1562 33 15.425 33 15.75C33 16.075 32.8938 16.3438 32.6813 16.5563C32.4688 16.7688 32.2 16.875 31.875 16.875H30V28.875C30 29.2 29.8938 29.4688 29.6813 29.6813C29.4688 29.8938 29.2 30 28.875 30H7.125ZM8.4375 12.375H12.5625V8.25H8.4375V12.375ZM8.25 27.75H16.875V16.875H8.25V27.75ZM19.125 27.75H27.75V16.875H19.125V27.75ZM8.4375 12.375H12.5625H8.4375Z\\\" fill=\\\"#464646\\\"/></svg>\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 19 Sep 2022 13:02:20 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 197.544,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Room"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 596.155,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device-type/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Laundry\",\n\t\"priority\": 50,\n\t\"tag\": \"laundry\",\n\t\"image\": \"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M4.125 16.5C3.825 16.5 3.5625 16.3875 3.3375 16.1625C3.1125 15.9375 3 15.675 3 15.375V2.625C3 2.325 3.1125 2.0625 3.3375 1.8375C3.5625 1.6125 3.825 1.5 4.125 1.5H13.875C14.175 1.5 14.4375 1.6125 14.6625 1.8375C14.8875 2.0625 15 2.325 15 2.625V15.375C15 15.675 14.8875 15.9375 14.6625 16.1625C14.4375 16.3875 14.175 16.5 13.875 16.5H4.125ZM4.125 15.375H13.875V2.625H4.125V15.375ZM9 14.2687C10.0125 14.2687 10.8719 13.9156 11.5781 13.2094C12.2844 12.5031 12.6375 11.6438 12.6375 10.6313C12.6375 9.61875 12.2844 8.75938 11.5781 8.05313C10.8719 7.34688 10.0125 6.99375 9 6.99375C7.9875 6.99375 7.12813 7.34688 6.42188 8.05313C5.71563 8.75938 5.3625 9.61875 5.3625 10.6313C5.3625 11.6438 5.71563 12.5031 6.42188 13.2094C7.12813 13.9156 7.9875 14.2688 9 14.2687ZM9 12.6937C8.7125 12.6937 8.43437 12.6406 8.16562 12.5344C7.89687 12.4281 7.6625 12.2812 7.4625 12.0938L10.4438 9.1125C10.6562 9.2875 10.8125 9.50625 10.9125 9.76875C11.0125 10.0312 11.0625 10.3188 11.0625 10.6313C11.0625 11.2312 10.8688 11.725 10.4813 12.1125C10.0938 12.5 9.6 12.6937 9 12.6937ZM5.7 4.725C5.85 4.725 5.98125 4.66875 6.09375 4.55625C6.20625 4.44375 6.2625 4.3125 6.2625 4.1625C6.2625 4.0125 6.20625 3.88125 6.09375 3.76875C5.98125 3.65625 5.85 3.6 5.7 3.6C5.55 3.6 5.41875 3.65625 5.30625 3.76875C5.19375 3.88125 5.1375 4.0125 5.1375 4.1625C5.1375 4.3125 5.19375 4.44375 5.30625 4.55625C5.41875 4.66875 5.55 4.725 5.7 4.725ZM8.2125 4.725C8.3625 4.725 8.49375 4.66875 8.60625 4.55625C8.71875 4.44375 8.775 4.3125 8.775 4.1625C8.775 4.0125 8.71875 3.88125 8.60625 3.76875C8.49375 3.65625 8.3625 3.6 8.2125 3.6C8.0625 3.6 7.93125 3.65625 7.81875 3.76875C7.70625 3.88125 7.65 4.0125 7.65 4.1625C7.65 4.3125 7.70625 4.44375 7.81875 4.55625C7.93125 4.66875 8.0625 4.725 8.2125 4.725ZM4.125 15.375V2.625V15.375Z\\\" fill=\\\"#464646\\\"/></svg>\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 19 Sep 2022 15:34:22 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 596.155,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Device Type"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 138.473,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/room/edit/living-room-a",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Bathroom\",\n\t\"priority\": 80,\n\t\"image\": \"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M11.175 26.1375C10.875 26.1375 10.6125 26.025 10.3875 25.8C10.1625 25.575 10.05 25.3125 10.05 25.0125C10.05 24.7125 10.1625 24.45 10.3875 24.225C10.6125 24 10.875 23.8875 11.175 23.8875C11.475 23.8875 11.7375 24 11.9625 24.225C12.1875 24.45 12.3 24.7125 12.3 25.0125C12.3 25.3125 12.1875 25.575 11.9625 25.8C11.7375 26.025 11.475 26.1375 11.175 26.1375ZM18 26.1375C17.7 26.1375 17.4375 26.025 17.2125 25.8C16.9875 25.575 16.875 25.3125 16.875 25.0125C16.875 24.7125 16.9875 24.45 17.2125 24.225C17.4375 24 17.7 23.8875 18 23.8875C18.3 23.8875 18.5625 24 18.7875 24.225C19.0125 24.45 19.125 24.7125 19.125 25.0125C19.125 25.3125 19.0125 25.575 18.7875 25.8C18.5625 26.025 18.3 26.1375 18 26.1375ZM24.825 26.1375C24.525 26.1375 24.2625 26.025 24.0375 25.8C23.8125 25.575 23.7 25.3125 23.7 25.0125C23.7 24.7125 23.8125 24.45 24.0375 24.225C24.2625 24 24.525 23.8875 24.825 23.8875C25.125 23.8875 25.3875 24 25.6125 24.225C25.8375 24.45 25.95 24.7125 25.95 25.0125C25.95 25.3125 25.8375 25.575 25.6125 25.8C25.3875 26.025 25.125 26.1375 24.825 26.1375ZM8.625 20.5125C8.3 20.5125 8.03125 20.4062 7.81875 20.1937C7.60625 19.9812 7.5 19.7125 7.5 19.3875V18.2625C7.5 15.5875 8.40625 13.25 10.2188 11.25C12.0312 9.25 14.25 8.1125 16.875 7.8375V5.625C16.875 5.3 16.9812 5.03125 17.1937 4.81875C17.4062 4.60625 17.675 4.5 18 4.5C18.325 4.5 18.5938 4.60625 18.8063 4.81875C19.0188 5.03125 19.125 5.3 19.125 5.625V7.8375C21.75 8.1125 23.9688 9.25 25.7812 11.25C27.5938 13.25 28.5 15.5875 28.5 18.2625V19.3875C28.5 19.7125 28.3938 19.9812 28.1813 20.1937C27.9688 20.4062 27.7 20.5125 27.375 20.5125H8.625ZM9.75 18.2625H26.25C26.25 15.9875 25.4438 14.0438 23.8312 12.4313C22.2188 10.8188 20.275 10.0125 18 10.0125C15.725 10.0125 13.7813 10.8188 12.1688 12.4313C10.5563 14.0438 9.75 15.9875 9.75 18.2625ZM11.175 31.5C10.875 31.5 10.6125 31.3875 10.3875 31.1625C10.1625 30.9375 10.05 30.675 10.05 30.375C10.05 30.075 10.1625 29.8125 10.3875 29.5875C10.6125 29.3625 10.875 29.25 11.175 29.25C11.475 29.25 11.7375 29.3625 11.9625 29.5875C12.1875 29.8125 12.3 30.075 12.3 30.375C12.3 30.675 12.1875 30.9375 11.9625 31.1625C11.7375 31.3875 11.475 31.5 11.175 31.5ZM18 31.5C17.7 31.5 17.4375 31.3875 17.2125 31.1625C16.9875 30.9375 16.875 30.675 16.875 30.375C16.875 30.075 16.9875 29.8125 17.2125 29.5875C17.4375 29.3625 17.7 29.25 18 29.25C18.3 29.25 18.5625 29.3625 18.7875 29.5875C19.0125 29.8125 19.125 30.075 19.125 30.375C19.125 30.675 19.0125 30.9375 18.7875 31.1625C18.5625 31.3875 18.3 31.5 18 31.5ZM24.825 31.5C24.525 31.5 24.2625 31.3875 24.0375 31.1625C23.8125 30.9375 23.7 30.675 23.7 30.375C23.7 30.075 23.8125 29.8125 24.0375 29.5875C24.2625 29.3625 24.525 29.25 24.825 29.25C25.125 29.25 25.3875 29.3625 25.6125 29.5875C25.8375 29.8125 25.95 30.075 25.95 30.375C25.95 30.675 25.8375 30.9375 25.6125 31.1625C25.3875 31.3875 25.125 31.5 24.825 31.5Z\\\" fill=\\\"#464646\\\"/></svg>\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 19 Sep 2022 13:03:31 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 138.473,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit Room"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 1076.651,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device-type/edit/fan",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Door\",\n\t\"priority\": 70,\n\t\"image\": \"<svg width=\\\"18\\\" height=\\\"18\\\" viewBox=\\\"0 0 18 18\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M8.2502 9.6749C8.45019 9.6749 8.61582 9.60928 8.74707 9.47803C8.87832 9.34678 8.94395 9.1874 8.94395 8.9999C8.94395 8.7999 8.87832 8.63428 8.74707 8.50303C8.61582 8.37178 8.45019 8.30615 8.2502 8.30615C8.0627 8.30615 7.90332 8.37178 7.77207 8.50303C7.64082 8.63428 7.5752 8.7999 7.5752 8.9999C7.5752 9.1874 7.64082 9.34678 7.77207 9.47803C7.90332 9.60928 8.0627 9.6749 8.2502 9.6749ZM5.00645 15.8624V14.4937L10.1439 13.5937V5.1749C10.1439 4.9624 10.0877 4.78115 9.9752 4.63115C9.8627 4.48115 9.7127 4.39365 9.5252 4.36865L5.00645 3.65615V2.30615L9.8252 3.1499C10.3127 3.2249 10.7158 3.45615 11.0346 3.84365C11.3533 4.23115 11.5127 4.66865 11.5127 5.15615V13.5749C11.5127 13.8999 11.4033 14.1968 11.1846 14.4655C10.9658 14.7343 10.6939 14.8874 10.3689 14.9249L5.00645 15.8624ZM5.00645 14.4937H13.0127V3.6749L5.00645 3.65615V14.4937ZM2.8127 15.8624C2.6252 15.8624 2.46582 15.7968 2.33457 15.6655C2.20332 15.5343 2.1377 15.3749 2.1377 15.1874C2.1377 14.9999 2.20332 14.8374 2.33457 14.6999C2.46582 14.5624 2.6252 14.4937 2.8127 14.4937H3.6377V3.6749C3.6377 3.2999 3.77207 2.97803 4.04082 2.70928C4.30957 2.44053 4.63145 2.30615 5.00645 2.30615H13.0127C13.3877 2.30615 13.7096 2.44053 13.9783 2.70928C14.2471 2.97803 14.3814 3.2999 14.3814 3.6749V14.4937H15.1877C15.3752 14.4937 15.5377 14.5624 15.6752 14.6999C15.8127 14.8374 15.8814 14.9999 15.8814 15.1874C15.8814 15.3749 15.8127 15.5343 15.6752 15.6655C15.5377 15.7968 15.3752 15.8624 15.1877 15.8624H2.8127Z\\\" fill=\\\"#464646\\\"/></svg>\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 19 Sep 2022 15:30:11 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 1076.651,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit Device Type"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 436.15500000000003,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/room/delete/living-room-a",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 18 Sep 2022 14:04:37 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 436.15500000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete Room"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 0,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device-type/delete/living-room-a",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete Device Type"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 340.539,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/room/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "3767"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"eb7-ya7oQ/XO6scN4ElnwDqSmfHjtQk\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 18 Sep 2022 14:06:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 3767,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"6327218ea0424f583e609c07\",\"tag\":\"living-room-a\",\"name\":\"Living Room\",\"priority\":100,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M5.7 10.05C5.7 8.925 6.09375 7.96875 6.88125 7.18125C7.66875 6.39375 8.625 6 9.75 6H26.25C27.375 6 28.3313 6.39375 29.1188 7.18125C29.9062 7.96875 30.3 8.925 30.3 10.05V13.1625C31.5 13.0375 32.5 13.3 33.3 13.95C34.1 14.6 34.5 15.5375 34.5 16.7625V25.95C34.5 27.075 34.1063 28.0312 33.3187 28.8187C32.5312 29.6062 31.575 30 30.45 30H5.55C4.425 30 3.46875 29.6062 2.68125 28.8187C1.89375 28.0312 1.5 27.075 1.5 25.95V16.7625C1.5 15.5375 1.90625 14.6 2.71875 13.95C3.53125 13.3 4.525 13.0375 5.7 13.1625V10.05ZM7.95 10.05V14.25C8.3 14.6 8.575 14.9438 8.775 15.2812C8.975 15.6187 9.075 16.1125 9.075 16.7625V21.4125H26.925V16.7625C26.925 16.1125 27.025 15.6187 27.225 15.2812C27.425 14.9438 27.7 14.6 28.05 14.25V10.05C28.05 9.525 27.8812 9.09375 27.5437 8.75625C27.2062 8.41875 26.775 8.25 26.25 8.25H9.75C9.225 8.25 8.79375 8.41875 8.45625 8.75625C8.11875 9.09375 7.95 9.525 7.95 10.05ZM29.175 23.6625H6.825V16.7625C6.825 16.5125 6.79375 16.2938 6.73125 16.1063C6.66875 15.9188 6.56875 15.7563 6.43125 15.6188C6.29375 15.4813 6.13125 15.3812 5.94375 15.3187C5.75625 15.2562 5.5375 15.225 5.2875 15.225C4.7875 15.225 4.40625 15.3563 4.14375 15.6188C3.88125 15.8813 3.75 16.2625 3.75 16.7625V25.95C3.75 26.475 3.91875 26.9062 4.25625 27.2438C4.59375 27.5813 5.025 27.75 5.55 27.75H30.45C30.975 27.75 31.4062 27.5813 31.7438 27.2438C32.0813 26.9062 32.25 26.475 32.25 25.95V16.7625C32.25 16.2625 32.1187 15.8813 31.8562 15.6188C31.5937 15.3563 31.2125 15.225 30.7125 15.225C30.4625 15.225 30.2438 15.2562 30.0563 15.3187C29.8688 15.3812 29.7125 15.4813 29.5875 15.6188C29.4625 15.7563 29.3625 15.9188 29.2875 16.1063C29.2125 16.2938 29.175 16.5125 29.175 16.7625V23.6625Z\\\" fill=\\\"white\\\"/></svg>\",\"update_time\":1663509824668,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632725be8d3bd4185d9284ff\",\"tag\":\"master-bedroom-a\",\"name\":\"Master Bedroom\",\"priority\":95,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M4.125 28.5C3.8 28.5 3.53125 28.3938 3.31875 28.1813C3.10625 27.9688 3 27.7 3 27.375V18.9375C3 18.3125 3.125 17.725 3.375 17.175C3.625 16.625 4 16.175 4.5 15.825V11.475C4.5 10.35 4.88125 9.40625 5.64375 8.64375C6.40625 7.88125 7.35 7.5 8.475 7.5H15.225C15.775 7.5 16.2875 7.625 16.7625 7.875C17.2375 8.125 17.65 8.4625 18 8.8875C18.35 8.4625 18.7563 8.125 19.2188 7.875C19.6812 7.625 20.1875 7.5 20.7375 7.5H27.4875C28.6125 7.5 29.5625 7.88125 30.3375 8.64375C31.1125 9.40625 31.5 10.35 31.5 11.475V15.825C32 16.175 32.375 16.625 32.625 17.175C32.875 17.725 33 18.3125 33 18.9375V27.375C33 27.7 32.8938 27.9688 32.6813 28.1813C32.4688 28.3938 32.2 28.5 31.875 28.5C31.55 28.5 31.2812 28.3938 31.0687 28.1813C30.8562 27.9688 30.75 27.7 30.75 27.375V25.5H5.25V27.375C5.25 27.7 5.14375 27.9688 4.93125 28.1813C4.71875 28.3938 4.45 28.5 4.125 28.5ZM19.125 15.1875H29.25V11.475C29.25 10.975 29.0813 10.5625 28.7438 10.2375C28.4062 9.9125 27.9875 9.75 27.4875 9.75H20.625C20.2 9.75 19.8438 9.925 19.5563 10.275C19.2688 10.625 19.125 11.025 19.125 11.475V15.1875ZM6.75 15.1875H16.875V11.475C16.875 11.025 16.7312 10.625 16.4437 10.275C16.1562 9.925 15.8 9.75 15.375 9.75H8.475C8 9.75 7.59375 9.91875 7.25625 10.2563C6.91875 10.5938 6.75 11 6.75 11.475V15.1875ZM5.25 23.25H30.75V18.9375C30.75 18.5125 30.6062 18.1563 30.3187 17.8688C30.0312 17.5813 29.675 17.4375 29.25 17.4375H6.75C6.325 17.4375 5.96875 17.5813 5.68125 17.8688C5.39375 18.1563 5.25 18.5125 5.25 18.9375V23.25ZM30.75 23.25H5.25H30.75Z\\\" fill=\\\"#464646\\\"/></svg>\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 340.539,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List Rooms"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 353.211,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/device-type/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "9800"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2648-mjJGKYzZmvBTOWXW+eVFceMYH80\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 03:02:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 9800,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"6327218ea0424f583e609c07\",\"tag\":\"living-room-a\",\"name\":\"Living Room\",\"priority\":100,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M5.7 10.05C5.7 8.925 6.09375 7.96875 6.88125 7.18125C7.66875 6.39375 8.625 6 9.75 6H26.25C27.375 6 28.3313 6.39375 29.1188 7.18125C29.9062 7.96875 30.3 8.925 30.3 10.05V13.1625C31.5 13.0375 32.5 13.3 33.3 13.95C34.1 14.6 34.5 15.5375 34.5 16.7625V25.95C34.5 27.075 34.1063 28.0312 33.3187 28.8187C32.5312 29.6062 31.575 30 30.45 30H5.55C4.425 30 3.46875 29.6062 2.68125 28.8187C1.89375 28.0312 1.5 27.075 1.5 25.95V16.7625C1.5 15.5375 1.90625 14.6 2.71875 13.95C3.53125 13.3 4.525 13.0375 5.7 13.1625V10.05ZM7.95 10.05V14.25C8.3 14.6 8.575 14.9438 8.775 15.2812C8.975 15.6187 9.075 16.1125 9.075 16.7625V21.4125H26.925V16.7625C26.925 16.1125 27.025 15.6187 27.225 15.2812C27.425 14.9438 27.7 14.6 28.05 14.25V10.05C28.05 9.525 27.8812 9.09375 27.5437 8.75625C27.2062 8.41875 26.775 8.25 26.25 8.25H9.75C9.225 8.25 8.79375 8.41875 8.45625 8.75625C8.11875 9.09375 7.95 9.525 7.95 10.05ZM29.175 23.6625H6.825V16.7625C6.825 16.5125 6.79375 16.2938 6.73125 16.1063C6.66875 15.9188 6.56875 15.7563 6.43125 15.6188C6.29375 15.4813 6.13125 15.3812 5.94375 15.3187C5.75625 15.2562 5.5375 15.225 5.2875 15.225C4.7875 15.225 4.40625 15.3563 4.14375 15.6188C3.88125 15.8813 3.75 16.2625 3.75 16.7625V25.95C3.75 26.475 3.91875 26.9062 4.25625 27.2438C4.59375 27.5813 5.025 27.75 5.55 27.75H30.45C30.975 27.75 31.4062 27.5813 31.7438 27.2438C32.0813 26.9062 32.25 26.475 32.25 25.95V16.7625C32.25 16.2625 32.1187 15.8813 31.8562 15.6188C31.5937 15.3563 31.2125 15.225 30.7125 15.225C30.4625 15.225 30.2438 15.2562 30.0563 15.3187C29.8688 15.3812 29.7125 15.4813 29.5875 15.6188C29.4625 15.7563 29.3625 15.9188 29.2875 16.1063C29.2125 16.2938 29.175 16.5125 29.175 16.7625V23.6625Z\\\" fill=\\\"white\\\"/></svg>\",\"update_time\":1663509824668,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632725be8d3bd4185d9284ff\",\"tag\":\"master-bedroom-a\",\"name\":\"Master Bedroom\",\"priority\":95,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M4.125 28.5C3.8 28.5 3.53125 28.3938 3.31875 28.1813C3.10625 27.9688 3 27.7 3 27.375V18.9375C3 18.3125 3.125 17.725 3.375 17.175C3.625 16.625 4 16.175 4.5 15.825V11.475C4.5 10.35 4.88125 9.40625 5.64375 8.64375C6.40625 7.88125 7.35 7.5 8.475 7.5H15.225C15.775 7.5 16.2875 7.625 16.7625 7.875C17.2375 8.125 17.65 8.4625 18 8.8875C18.35 8.4625 18.7563 8.125 19.2188 7.875C19.6812 7.625 20.1875 7.5 20.7375 7.5H27.4875C28.6125 7.5 29.5625 7.88125 30.3375 8.64375C31.1125 9.40625 31.5 10.35 31.5 11.475V15.825C32 16.175 32.375 16.625 32.625 17.175C32.875 17.725 33 18.3125 33 18.9375V27.375C33 27.7 32.8938 27.9688 32.6813 28.1813C32.4688 28.3938 32.2 28.5 31.875 28.5C31.55 28.5 31.2812 28.3938 31.0687 28.1813C30.8562 27.9688 30.75 27.7 30.75 27.375V25.5H5.25V27.375C5.25 27.7 5.14375 27.9688 4.93125 28.1813C4.71875 28.3938 4.45 28.5 4.125 28.5ZM19.125 15.1875H29.25V11.475C29.25 10.975 29.0813 10.5625 28.7438 10.2375C28.4062 9.9125 27.9875 9.75 27.4875 9.75H20.625C20.2 9.75 19.8438 9.925 19.5563 10.275C19.2688 10.625 19.125 11.025 19.125 11.475V15.1875ZM6.75 15.1875H16.875V11.475C16.875 11.025 16.7312 10.625 16.4437 10.275C16.1562 9.925 15.8 9.75 15.375 9.75H8.475C8 9.75 7.59375 9.91875 7.25625 10.2563C6.91875 10.5938 6.75 11 6.75 11.475V15.1875ZM5.25 23.25H30.75V18.9375C30.75 18.5125 30.6062 18.1563 30.3187 17.8688C30.0312 17.5813 29.675 17.4375 29.25 17.4375H6.75C6.325 17.4375 5.96875 17.5813 5.68125 17.8688C5.39375 18.1563 5.25 18.5125 5.25 18.9375V23.25ZM30.75 23.25H5.25H30.75Z\\\" fill=\\\"#464646\\\"/></svg>\"},{\"_id\":\"63286816ab1bb1dfd9ebfcf4\",\"tag\":\"bedroom-a\",\"name\":\"Bedroom\",\"priority\":90,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M6 25.5V17.475C6 16.825 6.2125 16.275 6.6375 15.825C7.0625 15.375 7.6 15.15 8.25 15.15H9.225V9.75C9.225 9.125 9.44375 8.59375 9.88125 8.15625C10.3187 7.71875 10.85 7.5 11.475 7.5H24.4875C25.1125 7.5 25.6438 7.71875 26.0813 8.15625C26.5188 8.59375 26.7375 9.125 26.7375 9.75V15.15H27.75C28.375 15.15 28.9062 15.3688 29.3438 15.8063C29.7812 16.2438 30 16.775 30 17.4V25.5H28.275L27.7125 27.7875C27.6625 27.9875 27.575 28.1562 27.45 28.2937C27.325 28.4312 27.1625 28.5 26.9625 28.5C26.7625 28.5 26.6 28.425 26.475 28.275C26.35 28.125 26.2625 27.95 26.2125 27.75L25.65 25.5H10.3875L9.7875 27.7875C9.7375 27.9875 9.65 28.1562 9.525 28.2937C9.4 28.4312 9.2375 28.5 9.0375 28.5C8.8375 28.5 8.675 28.425 8.55 28.275C8.425 28.125 8.3375 27.95 8.2875 27.75L7.725 25.5H6ZM19.125 15.15H24.4875V9.75H19.125V15.15ZM11.475 15.15H16.875V9.75H11.475V15.15ZM8.25 23.25H27.75V17.4H8.25V23.25ZM27.75 23.25H8.25H27.75Z\\\" fill=\\\"#464646\\\"/></svg>\"},{\"_id\":\"63286835ab1bb1dfd9ebfcf5\",\"tag\":\"bathroom-a\",\"name\":\"Bathroom\",\"priority\":80,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M11.175 26.1375C10.875 26.1375 10.6125 26.025 10.3875 25.8C10.1625 25.575 10.05 25.3125 10.05 25.0125C10.05 24.7125 10.1625 24.45 10.3875 24.225C10.6125 24 10.875 23.8875 11.175 23.8875C11.475 23.8875 11.7375 24 11.9625 24.225C12.1875 24.45 12.3 24.7125 12.3 25.0125C12.3 25.3125 12.1875 25.575 11.9625 25.8C11.7375 26.025 11.475 26.1375 11.175 26.1375ZM18 26.1375C17.7 26.1375 17.4375 26.025 17.2125 25.8C16.9875 25.575 16.875 25.3125 16.875 25.0125C16.875 24.7125 16.9875 24.45 17.2125 24.225C17.4375 24 17.7 23.8875 18 23.8875C18.3 23.8875 18.5625 24 18.7875 24.225C19.0125 24.45 19.125 24.7125 19.125 25.0125C19.125 25.3125 19.0125 25.575 18.7875 25.8C18.5625 26.025 18.3 26.1375 18 26.1375ZM24.825 26.1375C24.525 26.1375 24.2625 26.025 24.0375 25.8C23.8125 25.575 23.7 25.3125 23.7 25.0125C23.7 24.7125 23.8125 24.45 24.0375 24.225C24.2625 24 24.525 23.8875 24.825 23.8875C25.125 23.8875 25.3875 24 25.6125 24.225C25.8375 24.45 25.95 24.7125 25.95 25.0125C25.95 25.3125 25.8375 25.575 25.6125 25.8C25.3875 26.025 25.125 26.1375 24.825 26.1375ZM8.625 20.5125C8.3 20.5125 8.03125 20.4062 7.81875 20.1937C7.60625 19.9812 7.5 19.7125 7.5 19.3875V18.2625C7.5 15.5875 8.40625 13.25 10.2188 11.25C12.0312 9.25 14.25 8.1125 16.875 7.8375V5.625C16.875 5.3 16.9812 5.03125 17.1937 4.81875C17.4062 4.60625 17.675 4.5 18 4.5C18.325 4.5 18.5938 4.60625 18.8063 4.81875C19.0188 5.03125 19.125 5.3 19.125 5.625V7.8375C21.75 8.1125 23.9688 9.25 25.7812 11.25C27.5938 13.25 28.5 15.5875 28.5 18.2625V19.3875C28.5 19.7125 28.3938 19.9812 28.1813 20.1937C27.9688 20.4062 27.7 20.5125 27.375 20.5125H8.625ZM9.75 18.2625H26.25C26.25 15.9875 25.4438 14.0438 23.8312 12.4313C22.2188 10.8188 20.275 10.0125 18 10.0125C15.725 10.0125 13.7813 10.8188 12.1688 12.4313C10.5563 14.0438 9.75 15.9875 9.75 18.2625ZM11.175 31.5C10.875 31.5 10.6125 31.3875 10.3875 31.1625C10.1625 30.9375 10.05 30.675 10.05 30.375C10.05 30.075 10.1625 29.8125 10.3875 29.5875C10.6125 29.3625 10.875 29.25 11.175 29.25C11.475 29.25 11.7375 29.3625 11.9625 29.5875C12.1875 29.8125 12.3 30.075 12.3 30.375C12.3 30.675 12.1875 30.9375 11.9625 31.1625C11.7375 31.3875 11.475 31.5 11.175 31.5ZM18 31.5C17.7 31.5 17.4375 31.3875 17.2125 31.1625C16.9875 30.9375 16.875 30.675 16.875 30.375C16.875 30.075 16.9875 29.8125 17.2125 29.5875C17.4375 29.3625 17.7 29.25 18 29.25C18.3 29.25 18.5625 29.3625 18.7875 29.5875C19.0125 29.8125 19.125 30.075 19.125 30.375C19.125 30.675 19.0125 30.9375 18.7875 31.1625C18.5625 31.3875 18.3 31.5 18 31.5ZM24.825 31.5C24.525 31.5 24.2625 31.3875 24.0375 31.1625C23.8125 30.9375 23.7 30.675 23.7 30.375C23.7 30.075 23.8125 29.8125 24.0375 29.5875C24.2625 29.3625 24.525 29.25 24.825 29.25C25.125 29.25 25.3875 29.3625 25.6125 29.5875C25.8375 29.8125 25.95 30.075 25.95 30.375C25.95 30.675 25.8375 30.9375 25.6125 31.1625C25.3875 31.3875 25.125 31.5 24.825 31.5Z\\\" fill=\\\"#464646\\\"/></svg>\",\"update_time\":1663592611521,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"6328685cab1bb1dfd9ebfcf6\",\"tag\":\"kitchen-a\",\"name\":\"Kitchen\",\"priority\":70,\"image\":\"<svg width=\\\"36\\\" height=\\\"36\\\" viewBox=\\\"0 0 36 36\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"><path d=\\\"M7.125 30C6.8 30 6.53125 29.8938 6.31875 29.6813C6.10625 29.4688 6 29.2 6 28.875V16.875H4.125C3.8 16.875 3.53125 16.7688 3.31875 16.5563C3.10625 16.3438 3 16.075 3 15.75C3 15.425 3.10625 15.1562 3.31875 14.9437C3.53125 14.7312 3.8 14.625 4.125 14.625H8.8125C8.0875 14.625 7.46875 14.3688 6.95625 13.8563C6.44375 13.3438 6.1875 12.725 6.1875 12V7.125C6.1875 6.8 6.29375 6.53125 6.50625 6.31875C6.71875 6.10625 6.9875 6 7.3125 6H13.6875C14.0125 6 14.2813 6.10625 14.4938 6.31875C14.7063 6.53125 14.8125 6.8 14.8125 7.125V12C14.8125 12.725 14.5563 13.3438 14.0438 13.8563C13.5312 14.3688 12.9125 14.625 12.1875 14.625H24.375V10.125C24.375 9.6 24.1938 9.15625 23.8312 8.79375C23.4688 8.43125 23.025 8.25 22.5 8.25C22.15 8.25 21.8438 8.3125 21.5812 8.4375C21.3188 8.5625 21.1125 8.7625 20.9625 9.0375C20.8125 9.2875 20.6375 9.46875 20.4375 9.58125C20.2375 9.69375 20.025 9.75 19.8 9.75C19.35 9.75 19.0312 9.5625 18.8438 9.1875C18.6562 8.8125 18.7 8.4125 18.975 7.9875C19.35 7.3625 19.8375 6.875 20.4375 6.525C21.0375 6.175 21.725 6 22.5 6C23.65 6 24.625 6.4 25.425 7.2C26.225 8 26.625 8.975 26.625 10.125V14.625H31.875C32.2 14.625 32.4688 14.7312 32.6813 14.9437C32.8938 15.1562 33 15.425 33 15.75C33 16.075 32.8938 16.3438 32.6813 16.5563C32.4688 16.7688 32.2 16.875 31.875 16.875H30V28.875C30 29.2 29.8938 29.4688 29.6813 29.6813C29.4688 29.8938 29.2 30 28.875 30H7.125ZM8.4375 12.375H12.5625V8.25H8.4375V12.375ZM8.25 27.75H16.875V16.875H8.25V27.75ZM19.125 27.75H27.75V16.875H19.125V27.75ZM8.4375 12.375H12.5625H8.4375Z\\\" fill=\\\"#464646\\\"/></svg>\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 353.211,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List Device Types"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 93.75999999999999,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device/create",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"homebox\": \"HOMEBOX-220923-000006\",\n\t\"name\": \"Toilet Light\",\n\t\"room\": \"toilet-a\",\n\t\"type\": \"analog-light-2\",\n\t\"device_type\": \"light\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "73"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"49-OBzgkgkBQFZ6baFFBljR4fE4YBo\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 11 Nov 2022 12:21:12 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 73,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":\"636e3e38a6e0c409d563fdba\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 93.75999999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Create Device"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 376.102,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device/edit/631eb49e477289e8dcd0f332",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"631c278984e42eb1f62c72a2\",\n\t\"type\": \"analog-light-2\",\n\t\"device_type\": \"light\",\n\t\"custom_state\": [\n  {\n    \"brightness\": {\n      \"type\": \"int\",\n      \"values\": [\n        0,\n        100\n      ],\n      \"default\": 0,\n      \"interval\": 10,\n      \"unit\": \"%\"\n    }\n  },\n  {\n    \"pulse\": {\n      \"type\": \"double\",\n      \"values\": [\n        0,\n        20\n      ],\n      \"default\": 0,\n      \"interval\": 1,\n      \"unit\": \"second\"\n    }\n  }\n]\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 03:21:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 376.102,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit Device"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 89.02799999999999,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device/delete/631c2acb84e42eb1f62c72a6",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 11 Nov 2022 12:18:27 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 89.02799999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete Device"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 661.403,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device/get/631eb49e477289e8dcd0f332",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "415"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"19f-2DcZn7oWDjeZeRUKGvEY48n+aDw\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 10 Sep 2022 07:14:34 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 415,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"_id\":\"631c278984e42eb1f62c72a2\",\"name\":\"Living Room Light\",\"homebox\":\"HOMEBOX-220910-000001\",\"type\":\"analog-light-1\",\"custom_state\":[{\"brightness\":{\"type\":\"list\",\"values\":[\"off\",\"dim\",\"medium\",\"bright\"],\"default\":\"off\"}}],\"power\":false,\"create_time\":1662789513975,\"creator\":\"631b57c37435ab7736525a48\",\"update_time\":1662790603137,\"updater\":\"631b57c37435ab7736525a48\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 661.403,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get Device"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 131.53500000000003,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/device/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1301"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"515-byY5Ko9XvzL1t7itkd940eakJE8\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 11 Nov 2022 12:44:53 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1301,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"636e3de2a6e0c409d563fdad\",\"name\":\"Living Room Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169186062,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e01a6e0c409d563fdaf\",\"name\":\"Bedroom Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"bedroom-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169217912,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e0fa6e0c409d563fdb2\",\"name\":\"Meeting Room Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"meeting-room-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169231088,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e28a6e0c409d563fdb7\",\"name\":\"Corridor Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"corridor-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169256475,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e38a6e0c409d563fdba\",\"name\":\"Toilet Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"toilet-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169272986,\"creator\":\"632d46190b63ce60d33f17c0\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 131.53500000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List Device"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 664.999,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/edit/HOMEBOX-220923-000006",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"owner\": \"63293b24d3d441005474d345\",\n\t\"model_name\": \"HomeBox V2\",\n\t\"serial_number\": \"hZJSc9tff3rcTXDr\",\n\t\"manufacture_time\": 1662888600000\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 04:03:27 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 664.999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Edit HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 352.92600000000004,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/update-firmware/HOMEBOX-220923-000006",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"firmware_version\": \"1.03.60\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 18 Sep 2022 07:57:56 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 352.92600000000004,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Update Firmware HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 99.51400000000001,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/delete/HOMEBOX-220910-000002",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 17 Nov 2022 08:26:18 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 99.51400000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 204.609,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/get/HOMEBOX-220923-000006",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "5807"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"16af-Z+PPNiUiLYiKGcCK5ty2wzSOFT4\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 11 Nov 2022 12:54:41 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 5807,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"_id\":\"HOMEBOX-220923-000006\",\"name\":\"Geek-Electronick Jubilee\",\"project\":\"632d48060b63ce60d33f17c3\",\"token\":\"U7sBddgwCk9FEIqn\",\"firmware_version\":\"0.0.1\",\"firmware_update_history\":{\"0.0.1\":1663912062182},\"serial_number\":\"hZJSc9tff3rcTXDr\",\"model_name\":\"HomeBox V2\",\"create_time\":1663912062182,\"manufacture_time\":1662888600000,\"creator\":\"632d46190b63ce60d33f17c0\",\"owner\":\"63293b24d3d441005474d345\",\"update_time\":1663912156038,\"updater\":\"632d46190b63ce60d33f17c0\",\"devices\":[{\"_id\":\"632d49810b63ce60d33f17c4\",\"name\":\"Bedroom downlight\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-a\",\"custom_state\":[],\"power\":true,\"create_time\":1663912321888,\"creator\":\"632d46190b63ce60d33f17c0\",\"state\":{},\"delete_time\":1668168822759,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4b3a0b63ce60d33f17c8\",\"name\":\"Bedroom downlight (bed)\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663912762741,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168490505,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632d4bf50b63ce60d33f17cc\",\"name\":\"Living room curtain\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663912949906,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168478635,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632d4c290b63ce60d33f17cd\",\"name\":\"Living room downlight\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913001323,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168773838,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4c5e0b63ce60d33f17ce\",\"name\":\"Bedroom curtain\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913054093,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168503953,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632d4cb50b63ce60d33f17cf\",\"name\":\"Bedroom plaster ceiling light 1\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913141407,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168518953,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"632d4ce00b63ce60d33f17d0\",\"name\":\"Bedroom plaster ceiling light 2\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913184342,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168752695,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4d040b63ce60d33f17d1\",\"name\":\"Guest room downlight\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"guest-room\",\"custom_state\":[],\"power\":false,\"create_time\":1663913220238,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168765548,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4d660b63ce60d33f17d2\",\"name\":\"Toilet downlight\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"toilet\",\"custom_state\":[],\"power\":false,\"create_time\":1663913318883,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168814603,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4dc20b63ce60d33f17d3\",\"name\":\"Foyer downlight\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913410296,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168791440,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4e220b63ce60d33f17d4\",\"name\":\"Corridor light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913506724,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168803487,\"deleted\":true,\"deleter\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"632d4e990b63ce60d33f17d5\",\"name\":\"Wardrobe light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"digital-light-1\",\"group\":null,\"room\":\"bedroom-a\",\"custom_state\":[],\"power\":false,\"create_time\":1663913625319,\"creator\":\"632d46190b63ce60d33f17c0\",\"delete_time\":1668168681670,\"deleted\":true,\"deleter\":\"631b57c37435ab7736525a48\"},{\"_id\":\"636e3de2a6e0c409d563fdad\",\"name\":\"Living Room Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"living-room-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169186062,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e01a6e0c409d563fdaf\",\"name\":\"Bedroom Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"bedroom-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169217912,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e0fa6e0c409d563fdb2\",\"name\":\"Meeting Room Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"meeting-room-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169231088,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e28a6e0c409d563fdb7\",\"name\":\"Corridor Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"corridor-a\",\"custom_state\":null,\"power\":true,\"create_time\":1668169256475,\"creator\":\"632d46190b63ce60d33f17c0\"},{\"_id\":\"636e3e38a6e0c409d563fdba\",\"name\":\"Toilet Light\",\"homebox\":\"HOMEBOX-220923-000006\",\"type\":\"analog-light-2\",\"group\":null,\"room\":\"toilet-a\",\"custom_state\":null,\"power\":false,\"create_time\":1668169272986,\"creator\":\"632d46190b63ce60d33f17c0\"}]}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 204.609,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 21.215999999999998,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/homebox/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "514"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"202-UfM5KtkQdMfqrbNwbubpe0NxJNI\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 17 Nov 2022 08:26:21 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 514,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"HOMEBOX-220923-000006\",\"name\":\"Geek-Electronick Jubilee\",\"project\":\"632d48060b63ce60d33f17c3\",\"token\":\"U7sBddgwCk9FEIqn\",\"firmware_version\":\"0.0.1\",\"firmware_update_history\":{\"0.0.1\":1663912062182},\"serial_number\":\"hZJSc9tff3rcTXDr\",\"model_name\":\"HomeBox V2\",\"create_time\":1663912062182,\"manufacture_time\":1662888600000,\"creator\":\"632d46190b63ce60d33f17c0\",\"owner\":\"63293b24d3d441005474d345\",\"update_time\":1663912156038,\"updater\":\"632d46190b63ce60d33f17c0\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 21.215999999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 985.063,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/homebox/get/HOMEBOX-220923-000006",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "461"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1cd-ouAToPPmhSZjojDdlinhxZrhRxo\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 20 Sep 2022 04:47:26 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 461,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":{\"_id\":\"HOMEBOX-220910-000002\",\"name\":\"F-07-03\",\"project\":\"631b6b3e39e1c42f4070a861\",\"token\":\"aWB7q1qm5LHbPD0F\",\"create_time\":1662798774778,\"creator\":\"631b57c37435ab7736525a48\",\"owner\":\"63293b24d3d441005474d345\",\"manufacture_time\":1662888600000,\"model_name\":\"HomeBox V2\",\"serial_number\":\"hZJSc9tff3rcTXDr\",\"update_time\":1663646607663,\"updater\":\"631b57c37435ab7736525a48\",\"housemate\":[],\"devices\":[],\"role\":\"owner\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 985.063,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get HomeBox"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 255.20399999999998,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/user/homebox/invite-housemate/HOMEBOX-220923-000006",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "user-id",
+							"value": "63293b24d3d441005474d345"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer alwAUcIOYf153QWH"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"housemate-email\": \"karhoong@the-oaks.my\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"27-h3UUdYgQVZwKK8UYpQk/s1LrQgU\""
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 16 Sep 2022 06:03:44 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 255.20399999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Invite Housemate"
+			},
+			{
+				"startedDateTime": "2023-11-18T13:32:44.346Z",
+				"time": 124.631,
+				"request": {
+					"method": "POST",
+					"url": "https://homebox2-api.the-oaks.my/api/admin/homebox/list",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "admin-id",
+							"value": "632d46190b63ce60d33f17c0"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer yFipO99DnbTOyC0U"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"limit\": 10,\n\t\"page\": 0,\n\t\"include_bin\": true\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "2669"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"a6d-ewERUuqjZ1Rt2UlUo2WsFk2MjWo\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 17 Nov 2022 08:24:24 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 2669,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"status\":1,\"status_message\":\"SUCCESS\",\"data\":[{\"_id\":\"HOMEBOX-220910-000001\",\"name\":\"Emporis F-07-03\",\"project\":\"631b6b3e39e1c42f4070a861\",\"token\":\"aWB7q1qm5LHbPD0F\",\"create_time\":1662798767395,\"creator\":\"631b57c37435ab7736525a48\",\"owner\":\"6323f9b96111958abdb1f0c7\",\"update_time\":1663506784219,\"updater\":\"631b57c37435ab7736525a48\",\"housemate\":[\"6323f9b96111958abdb1f0c7\"],\"firmware_update_history\":[{\"1.03.58\":1663478395799},{\"1.03.59\":1663478398955},{\"1.03.60\":1663487876321}],\"firmware_version\":\"1.03.60\",\"model_name\":\"HomeBox V2\",\"serial_number\":\"hZJSc9tff3rcTXDr\",\"manufacture_time\":1662888600000},{\"_id\":\"HOMEBOX-220910-000002\",\"name\":\"F-07-03\",\"project\":\"631b6b3e39e1c42f4070a861\",\"token\":\"aWB7q1qm5LHbPD0F\",\"create_time\":1662798774778,\"creator\":\"631b57c37435ab7736525a48\",\"owner\":\"63293b24d3d441005474d345\",\"manufacture_time\":1662888600000,\"model_name\":\"HomeBox V2\",\"serial_number\":\"hZJSc9tff3rcTXDr\",\"update_time\":1663646607663,\"updater\":\"631b57c37435ab7736525a48\"},{\"_id\":\"HOMEBOX-220912-000003\",\"name\":\"F-07-05\",\"project\":\"631b6b3e39e1c42f4070a861\",\"token\":\"U7sBddgwCk9FEIqn\",\"create_time\":1662956601642,\"creator\":\"631b57c37435ab7736525a48\",\"update_time\":1663308064141,\"updater\":\"631b57c37435ab7736525a48\",\"owner\":\"631b2a16b631fe28f4c22f98\",\"housemate\":[\"6323f9b96111958abdb1f0c7\"]},{\"_id\":\"HOMEBOX-220920-000004\",\"name\":\"Maxim Risen\",\"project\":\"632953f8ce4fcbde459a3cd4\",\"token\":\"U7sBddgwCk9FEIqn\",\"firmware_version\":\"0.0.1\",\"firmware_update_history\":{\"0.0.1\":1663653053654},\"serial_number\":\"hZJSc9tff3rcTXDr\",\"model_name\":\"HomeBox V2\",\"create_time\":1663653053654,\"manufacture_time\":1662888600000,\"creator\":\"63294fe3ce4fcbde459a3cd0\",\"owner\":\"632950bace4fcbde459a3cd2\",\"update_time\":1663653778592,\"updater\":\"63294fe3ce4fcbde459a3cd0\"},{\"_id\":\"HOMEBOX-220920-000005\",\"name\":\"Beverly Hills\",\"project\":\"632953f8ce4fcbde459a3cd4\",\"token\":\"U7sBddgwCk9FEIqn\",\"firmware_version\":\"0.0.1\",\"firmware_update_history\":{\"0.0.1\":1663817726089},\"serial_number\":\"hZJSc9tff3rcTXDr\",\"model_name\":\"HomeBox V2\",\"create_time\":1663817726089,\"manufacture_time\":1662888600000,\"creator\":\"63294fe3ce4fcbde459a3cd0\",\"owner\":\"632950bace4fcbde459a3cd2\",\"update_time\":1663817808489,\"updater\":\"63294fe3ce4fcbde459a3cd0\"},{\"_id\":\"HOMEBOX-220923-000006\",\"name\":\"Geek-Electronick Jubilee\",\"project\":\"632d48060b63ce60d33f17c3\",\"token\":\"U7sBddgwCk9FEIqn\",\"firmware_version\":\"0.0.1\",\"firmware_update_history\":{\"0.0.1\":1663912062182},\"serial_number\":\"hZJSc9tff3rcTXDr\",\"model_name\":\"HomeBox V2\",\"create_time\":1663912062182,\"manufacture_time\":1662888600000,\"creator\":\"632d46190b63ce60d33f17c0\",\"owner\":\"63293b24d3d441005474d345\",\"update_time\":1663912156038,\"updater\":\"632d46190b63ce60d33f17c0\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 124.631,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "List HomeBox"
+			}
+		]
+	}
+}
