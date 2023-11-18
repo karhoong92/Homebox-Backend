@@ -29,8 +29,8 @@ Homebox-Backend is the express.js back-end system for the Homebox smart home sys
 
 Before you begin, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version x.x.x)
-- [npm](https://www.npmjs.com/) (version x.x.x)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 - [Docker](https://www.docker.com/)
 
 ### Installation
